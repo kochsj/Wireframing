@@ -1,0 +1,62 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:1110px;
+} 
+body {
+    margin: 0px;
+}  
+img {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+div {
+    display: inline-block;
+    margin-bottom:30px;
+}
+nav, footer {
+    width: 885px;
+    height: 70px;
+    padding-left: 75px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(65, 65, 65);
+}
+.nav {
+    width: 152.5px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: grey;
+}
+#navImg {
+    vertical-align: top;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.img300{
+    margin-left: 26px;
+}
+#scrollingText {
+    width: 450px;
+    margin-left: 26px;
+    margin-top: 40px;
+    vertical-align: top;
+
+}
+h3 {
+    margin: 0px;
+}
+p {
+    height: 332px;
+    overflow: scroll;
+    margin: 0px;
+}
+button {
+    height: 45px;
+    width: 180px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
