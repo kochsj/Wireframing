@@ -1,17 +1,22 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width:1410px;
-}   
+    width:1110px;
+} 
+body {
+    margin: 0px;
+}  
 img {
     display: inline-block;
-    margin-top: 40px;
-    margin-left: 225px;
+    margin-top: 30px;
+    margin-left: 75px;
 }
 div {
     display: inline-block;
+    margin-bottom:30px;
 }
-nav {
-    width: 1410px;
+nav, footer {
+    width: 885px;
+    height: 70px;
     padding-left: 75px;
     padding-right: 150px;
     padding-top: 20px;
@@ -19,11 +24,10 @@ nav {
     background-color: rgb(65, 65, 65);
 }
 .nav {
-    width: 200px;
+    width: 152.5px;
     height: 70px;
     text-align: center;
     line-height: 70px;
-    margin-left: 46.25px;
     color: grey;
 }
 #navImg {
