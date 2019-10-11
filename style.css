@@ -1,24 +1,24 @@
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width:1110px;
-} 
+    width: 100%;
+}
+
 body {
     margin: 0px;
 }  
 img {
     display: inline-block;
     margin-top: 30px;
-    margin-left: 75px;
+    margin-left: 20%;
 }
 div {
     display: inline-block;
     margin-bottom:30px;
 }
-nav, footer {
-    width: 885px;
+header, footer {
     height: 70px;
-    padding-left: 75px;
-    padding-right: 150px;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: rgb(65, 65, 65);
@@ -43,20 +43,25 @@ nav, footer {
     margin-left: 26px;
     margin-top: 40px;
     vertical-align: top;
-
 }
 h3 {
     margin: 0px;
 }
 p {
+    font-style: italic;
     height: 332px;
     overflow: scroll;
     margin: 0px;
 }
+
 button {
     height: 45px;
     width: 180px;
     font-size: 16px;
     background-color: black;
     color: white;
+    transition: 350ms;
+}
+button:hover{
+    background-color: red;
 }
